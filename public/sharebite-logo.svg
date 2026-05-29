@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="ShareBite">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e7d32" />
+      <stop offset="100%" stop-color="#00acc1" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#g)" />
+  <path
+    fill="#fff"
+    d="M60 34c-15 0-26 11-26 26 0 10 6 18 14 22l12 8 12-8c8-4 14-12 14-22 0-15-11-26-26-26zm0 8c6 0 10 4 10 10 0 5-4 8-8 12l-2 2-2-2c-4-4-8-7-8-12 0-6 4-10 10-10z"
+  />
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-width="6"
+    stroke-linecap="round"
+    d="M48 50c6 6 14 6 20 0"
+  />
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-width="6"
+    stroke-linecap="round"
+    d="M50 68c6 6 14 6 20 0"
+  />
+</svg>
