@@ -9,6 +9,6 @@ RUN npm run build
 # Serve stage
 FROM nginx:stable-alpine
 # Note: check if your build folder is /dist or /build
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
